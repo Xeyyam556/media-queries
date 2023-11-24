@@ -1,0 +1,50 @@
+.div{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.div1{
+    flex-grow: 1;
+    background-color: rgb(241, 237, 237);
+    width: 23%px;
+    height: 400px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 40px;
+    text-align: center;
+}
+img{
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+p{
+    padding-top: 10px;
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+.but{
+    padding-top: 20px;
+    text-align: center;
+}
+.img{
+    text-align: center;
+}
+@media ((max-width:859px) and (min-width:464px)){
+    .div1{
+        width: 43%;
+    }
+}
+@media ((max-width:463px)){
+    .div1{
+        width: 100%;
+    }
+}
